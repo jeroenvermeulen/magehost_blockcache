@@ -14,7 +14,7 @@ If you have experience with Redis cache, you will understand how to do it for Re
 * Install [Modman](https://github.com/colinmollenhour/modman)
 * `cd` to your Magento root dir
 * `test -d .modman || modman init`
-* `modman clone --copy --force https://github.com/magehost/magehost_blockcache`
+* `modman clone --copy --force https://github.com/jeroenvermeulen/magehost_blockcache`
 * If you keep your Magento code in Git: Add `.modman` to your `.gitignore`
 * Edit `app/etc/local.xml`: inside `<config><global>` add/update:<br /> `<cache><backend>MageHost_Cm_Cache_Backend_File</backend></cache>`
 * In Magento Admin: _System > Configuration > ADVANCED > Developer > Template Settings_
@@ -30,7 +30,7 @@ If you have experience with Redis cache, you will understand how to do it for Re
 1. Make sure you run Magento 1.7 or newer 
 * `cd` to your Magento root dir
 * `test -d .modman || modman init`
-* `git submodule add https://github.com/magehost/magehost_blockcache .modman/magehost_blockcache`
+* `git submodule add https://github.com/jeroenvermeulen/magehost_blockcache .modman/magehost_blockcache`
 * `modman deploy --force magehost_blockcache`
 * Edit `app/etc/local.xml`: inside `<config><global>` add/update:<br /> `<cache><backend>MageHost_Cm_Cache_Backend_File</backend></cache>`
 * `n98-magerun.phar dev:symlinks --global --on`
