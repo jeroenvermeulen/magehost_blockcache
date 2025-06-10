@@ -1,5 +1,5 @@
 ## MageHost_BlockCache Extension - Performance Improvement by better block caching in Magento CE
-## Copyright MagentoHosting.pro / MagentoHosting.pro
+## Copyright Jeroen Vermeulen
 
 app/etc/modules/MageHost_BlockCache.xml                              app/etc/modules/MageHost_BlockCache.xml
 app/code/community/MageHost/BlockCache/                              app/code/community/MageHost/BlockCache/
